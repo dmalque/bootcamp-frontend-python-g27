@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="contact-form">  
+    <h1>Contact Us</h1>
+    <form action="">
+      <div class="row">
+      <label for="">First Name <span class="required">*</span>
+        <input type="text" name="first_name">
+      </label>
+      <label for="">Last Name <span class="required">*</span>
+        <input type="text" name="last_name">
+      </label>
+      </div>
+      <label for="">Email Address <span class="required">*</span>
+        <input type="email" name="email">
+      </label>     
+      <div>
+        Query Type <span class="required">*</span>
+        <div class="row query-type">
+          <label for="">
+            <input type="radio" name="generalEnquiry">General Enquiry
+          </label>
+         <label for="  ">
+            <input type="radio" name="generalEnquiry">Support Request
+        </label>
+        
+        </div>
+      
+      </div>
+
+      <label for="">Message<span class="required">*</span>
+        <textarea name="message" id=""></textarea>
+      </label>
+      <label for="" class="chek">
+        <input type="checkbox" name="consentimiento"> consent to being contacted by the team
+      </label>
+      <label for="">
+       <button type="submit">Submit</button>
+       
+      </label>
+    </form>
+  </main>
+</body>
+</html>
